@@ -7,6 +7,9 @@
 Make sure your machine is set up with the proper tooling: [IaC Bicep Hack - Prerequisites](./Prerequisites.md)
 
 ## Introduction
+
+Our 1st challenge looks to introduce you to deploying Bicep files and getting used to the syntax within them compared to ARM templates. 
+
 The goals for this challenge include understanding:
 - Why Bicep is an improvement over the current ARM template language
 - How Bicep works
@@ -25,16 +28,30 @@ Your first challenge is to create a simple Bicep file that takes an input storag
 
 ## Description
 
-Develop a simple Bicep file that takes inputs to create an Azure Storage Account, and returns an outputs.
+Develop a simple Bicep file that creates as Azure Storage Account.
+
+Before starting please create a Resource Group in Azure for your Bicep work to be deployed to.
+
+   -	Validate Setup and get familiar with VS Code
+   -	Sign In to Azure Portal using Powershell or Azure CLI
    - Create a simple Bicep file
-   - The file must take inputs: location and a unique storage account name
-   - The output must return a storage account id
-   - Deploy it using the Azure CLI
-   - Deploy it using the Azure PowerShell Cmdlets
+   - Deploy it using the Azure CLI or PowerShell
    - Observe the deployment in the Azure Portal
+   - Start to think about ways the Bicep file can be improved
 
 ## Success Criteria
 
-1. You can deploy Bicep file using both the CLI and PowerShell
-1. You can view the deployment in the Azure Portal and view the inputs & outputs
+1. You can deploy Bicep file using the CLI or PowerShell
+2. You can view the deployment in the Azure Portal 
+
+## Resources
+
+   -	Quickstart ARM Templates: https://azure.microsoft.com/en-us/resources/templates/
+   -	Bicep Playground: https://bicepdemo.z22.web.core.windows.net/ 
+   -	Deploy using Azure CLI: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-cli
+   -	Deploy using PowerShell: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-powershell
+   -	Variables in Bicep: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/variables
+
+
+
 
