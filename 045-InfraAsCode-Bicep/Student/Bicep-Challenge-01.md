@@ -50,7 +50,6 @@ Before starting please create a Resource Group in Azure for your Bicep work to b
    -	Bicep Playground: https://bicepdemo.z22.web.core.windows.net/ 
    -	Deploy using Azure CLI: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-cli
    -	Deploy using PowerShell: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-powershell
-   -	Variables in Bicep: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/variables
 
 
 
