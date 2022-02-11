@@ -12,6 +12,35 @@ The students can end this challenge with "Hard Coded" Vaules. Variables will be 
 
   - Duplicate Deployment Error: Delete the Deployment at the scope (resource group) then re-run 
 
+## PowerShell Deploy 
+
+```
+$deploymentName = 'challenge-01-deployment'
+
+New-AzResourceGroup -Name $resourceGroupName -Location $location -Force
+
+New-AzResourceGroupDeployment `
+	-Name $deploymentName `
+	-ResourceGroupName $resourceGroupName `
+	-TemplateFile ./challenge-01.bicep `
+	-location $location `
+	-storageAccountName $storageAccountName
+  
+ ```
+
+## CLI 
+
+```
+az group create --name $RESOURCE_GROUP_NAME --location $LOCATION
+
+az deployment group create \
+	--name $DEPLOYMENT_NAME \
+    --resource-group $RESOURCE_GROUP_NAME \
+    --template-file ./challenge-01.bicep \
+	--parameters location=${LOCATION} storageAccountName=${STORAGE_ACCOUNT_NAME}
+
+```
+
 ## Learning Resources
 
 Learn how to "fish" for Bicep:
