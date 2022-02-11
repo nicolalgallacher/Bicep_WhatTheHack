@@ -1,36 +1,32 @@
-# Challenge 5 - Deploy a Virtual Machine
+# Challenge 5 - Secret Values with Azure Key Vault
 
-[< Previous Challenge](./Bicep-Challenge-04.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-06.md)
+[< Previous Challenge](./Bicep-Challenge-03.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-05.md)
 
-## Introduction 
+## Introduction
 
-In this challenge, you will put all the pieces together and extend your Bicep template to deploy a Virtual Machine in Azure.
+The goals for this challenge are to understand:
+- Handling secret values
+- Not getting fired!
 
-The goals for this challenge include understanding:
-   + Globally unique naming context and complex dependencies
-   + Clean code with neat parameter and variable values
-   + Figuring out what Azure resources it takes to build a VM
+So far, the only parameters you have passed into your template have been related to the Virtual Network. In the next challenge you will deploy a VM which will require you to pass in a password for the VM's admin account.  It is an **ANTI-pattern** to put a secret value such as a password in plain text in a parameter file! NEVER do this!
+
+#### **Seriously, this is something that could cost you your job!**
+
+It is a BEST practice to store secret values (such as passwords) in the Azure Key Vault service. We have provided you with a script that can create a Key Vault for you, and prompt you to enter the secret value (password) you want to store in the vault.
 
 ## Description
 
-+	Extend your Bicep template to deploy a virtual machine
-    +   VM requirements -
-        +   Linux OS
-        +   Use a secure secret value for the admin password from Azure Key Vault
-    + Use a resource prefix and template variables to have consistent naming of resources
+Your challenge, should you accept it, is to:
++ Create an Azure Key Vault and store a secret value in it by running one of the provided KeyVault scripts of your choice. You can find the scripts in the Resources folder for **Bicep-Challenge-04**:
+    - create-key-vault-CLI.sh - Azure CLI
+    - create-key-vault-PS.ps1 - PowerShell
++ Retrieve the secret value from Azure Key Vault and pass it into your template as a parameter without having the value exposed as plain text at any point in time!
+
 
 ## Success Criteria
 
-1. Verify that your virtual machine has been deployed via the Azure Portal or Azure CLI.
-1. Connect to your virtual machine and verify you can login (Linux with SSH)
+1. Verify the value of the parameter in the portal after deployment
 
-## Tips
+## Advanced Challenge (Optional)
 
-- For a Linux VM, you can use an admin password or an SSH key to control access to the VM. It is common (and a recommended practice) to use an SSH key with Linux instead of an admin password. If you are not familiar with Linux, we recommend using an admin password for this hack to keep things simple and focus on learning ARM Bicep templates.
-- You may need to open additional ports to connect to your VM depending on which OS you deployed.
-- You will need to supply your VM with a Public IP address or use the Azure Bastion service to connect to it.
-
-## Learning Resources
-
-- [Define resources with Bicep and ARM templates](https://docs.microsoft.com/en-us/azure/templates/)
-- [Virtual Machine - Azure Resource Manager reference](https://docs.microsoft.com/en-us/azure/templates/microsoft.compute/virtualmachines?tabs=bicep)
+The goal of this challenge was focused on how to _retrieve_ secret values from Key Vault for use in an ARM Template with Bicep. You can create an Azure Key Vault using an ARM Template too.  Feel free to try this as a bonus challenge.

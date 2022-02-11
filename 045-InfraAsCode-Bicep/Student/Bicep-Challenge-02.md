@@ -1,34 +1,19 @@
-# Challenge 2 - Bicep expressions and Referencing resources
+ Challenge 2 - Leveraging Parameters, Variables and Outputs
 
-[< Previous Challenge](./Bicep-Challenge-01.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-03.md)
+ [< Previous Challenge](./Bicep-Challenge-01.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-02.md)
 
 ## Introduction
 
-In this challenge you will edit the bicep file created in Challenge 1. The goals for this challenge include:
-+ Understanding Bicep expressions
-    + Using Bicep functions
-    + Using string interpolation
-    + Using the ternary operator
-+ Referencing Bicep resources
-+ Understanding parameter files
+In the last challenge you will have successfully completed the coding and deployment of a storage account using Bicep.  Great job!  However, we have used a lot of hard coded entries throughout this template.  Whilst hardcoding keeps things nice and simple it's not great practice.  Also, it means your template is very inflexible.  Lets change that!
 
-## Description
-
-+ Instead of requiring users to provide a unique storage account name, we can use the `uniqueString()` and `resourceGroup()` functions to generate a unique storage account name. The `resourceGroup()` function returns an object containing information about the current resource group to which we are deploying.  Use the function's location property `resourceGroup().location` to access the current resource group's deployment location, instead of hard-coding it. The `uniqueString()` function takes one of more input strings  and generates a unique string using a hashing algorithm.
-+ Use string interpolation to concatenate the `uniqueString()` value with a storage account prefix of your choice
-+ Provide an input parameter named `globalRedundancy` of type `bool`  and use the ternary operator to switch the storage account sku name between `Standard_GRS` & `Standard_LRS` depending on whether the parameter value is `true` or `false`, respectively.
-+ Create a container in the storage account you created in the previous challenge and modify the bicep file to output additional information:
-    + Storage Account Name
-    + Blob primary endpoint
-+ In the previous challenge, you observed that parameter values need to be passed in via the command line or you will be prompted for their values each time you deploy the template. Use a parameter file to list parameter values and pass them into the template.
-
-**NOTE:** ARM Templates with Bicep use the same parameter file format as ARM Templates with JSON. 
+Redevelop your Bicep file from challenge 1 so that it takes inputs to create an Azure Storage Account using parameters, a variable, and returns an output.
+   - The file must take inputs: a unique storage account name, storage account SKU and a Project and Environment Tag of "Bicep Project" and "Development" respectively.
+   - A variable for your resources location
+   - The output must return a storage account id
+   - Deploy it using the Azure CLI or Powershell
+   - Observe the deployment in the Azure Portal
 
 ## Success Criteria
 
-1. You can pass parameter values to the template via a parameter file
-1. You can deploy Azure Storage Account without hard-coding inputs
-1. Create a container within the storage account
-1. Output the storage account name and blob primary endpoint url
-
-
+1. You can deploy Bicep file using both the CLI or PowerShell
+2. You can view the deployment in the Azure Portal and view the inputs & outputs
