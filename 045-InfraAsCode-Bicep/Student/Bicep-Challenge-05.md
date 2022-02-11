@@ -1,4 +1,4 @@
-# Challenge 4 - Secret Values with Azure Key Vault
+# Challenge 5 - Secret Values with Azure Key Vault
 
 [< Previous Challenge](./Bicep-Challenge-03.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-05.md)
 
