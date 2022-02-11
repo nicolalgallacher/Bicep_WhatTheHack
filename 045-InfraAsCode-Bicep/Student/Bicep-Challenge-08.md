@@ -1,4 +1,4 @@
-# Challenge 7 - Configure VM to Run a Web Server
+# Challenge 8 - Configure VM to Run a Web Server
 
 [< Previous Challenge](./Bicep-Challenge-06.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-08.md)
 
