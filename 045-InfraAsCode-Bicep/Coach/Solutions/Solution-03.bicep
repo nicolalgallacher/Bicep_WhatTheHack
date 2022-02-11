@@ -1,5 +1,4 @@
-param containerName string
-param globalRedundancy bool = false
+/* param globalRedundancy bool = false
 
 var storageAccountName = 'bicepwth${uniqueString(resourceGroup().id)}'
 
@@ -14,14 +13,31 @@ resource storage 'Microsoft.Storage/storageAccounts@2019-06-01' = {
     accessTier: 'Hot'
     supportsHttpsTrafficOnly: true
   }
+} 
+
+output storageAccountId string = storage.id
+output storageAccountEndpoint string = storage.properties.primaryEndpoints.blob
+*/
+
+param stgaccountName string = 'cbstgaccukbicep'
+param stgKind string = 'StorageV2'
+param stgSKU string = 'Standard_LRS'
+
+param resourceTags object = {
+  Environment: 'Dev'
+  Project: 'Mastering Bicep'
 }
 
-resource container 'Microsoft.Storage/storageAccounts/blobServices/containers@2019-06-01' = {
-  name: '${storage.name}/default/${containerName}'
-  properties: {
-    publicAccess: 'Container'
+var location = 'westeurope'
+
+resource mystgaccount 'Microsoft.Storage/storageAccounts@2021-06-01' = {
+  name: stgaccountName
+  kind: stgKind
+  location: location
+  tags: resourceTags
+  sku: {
+    name: stgSKU
   }
 }
 
 output storageAccountId string = storage.id
-output storageAccountEndpoint string = storage.properties.primaryEndpoints.blob
