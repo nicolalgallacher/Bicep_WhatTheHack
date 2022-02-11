@@ -1,4 +1,4 @@
-# Challenge 3 - Advanced resource declarations
+# Challenge 4 - Advanced resource declarations
 
 [< Previous Challenge](./Bicep-Challenge-02.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-04.md)
 
