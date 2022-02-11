@@ -21,7 +21,7 @@ Bicep is a new language for ARM templates. Unlike JSON, it's not a general-purpo
 
 Bicep templates are transpiled into standard JSON ARM templates in a similar way to how TypeScript is transpiled into JavaScript. This conversion is currently achieved using the Bicep CLI, although in future the transpilation step may be embedded into the Azure CLI and other tooling as well.
 
-Your first challenge is to create a simple Bicep file that takes an input storage account name to create an Azure Storage Account, and returns an output storage account id. The goals here are to understand:
+Your first challenge is to create a simple Bicep file that takes an input storage account name to create an Azure Storage Account. The goals here are to understand:
 
 - Core elements of Bicep file and different ways to deploy it.
 - How & where to see & troubleshoot deployments in the portal.
@@ -41,8 +41,9 @@ Before starting please create a Resource Group in Azure for your Bicep work to b
 
 ## Success Criteria
 
-1. You can deploy Bicep file using the CLI or PowerShell
-2. You can view the deployment in the Azure Portal 
+1. Create a simple Bicep file that creates an Azure Storage Account
+2. You can deploy Bicep file using the CLI or PowerShell
+3. You can view the deployment in the Azure Portal 
 
 ## Resources
 
