@@ -4,7 +4,13 @@
 
 ## Notes & Guidance
 
-Challenge 1 notes coming soon...
+This Challenge acts as a Basic introduction to the Bicep language and deployement. 
+
+The students can end this challenge with "Hard Coded" Vaules. Variables will be looked into in Challenge 2, but should be starting to think about better syntax on how to improve based on infro from the overview session at the start of the hack
+
+##Look Out For / Known Errors 
+
+  - Duplicate Deployment Error: Delete the Deployment at the scope (resource group) then re-run 
 
 ## Learning Resources
 
