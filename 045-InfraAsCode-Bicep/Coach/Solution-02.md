@@ -14,7 +14,8 @@ A variable should have been included to ensure the storage account is deployed i
 
 ## Learning Resources
 
-Learn how to "fish" for ARM template resource syntax:
+Learn how to "fish" for Bicep:
 
-- [Bicep expressions](https://github.com/Azure/bicep/blob/main/docs/tutorial/03-using-expressions.md)
+- [Basic Bicep](https://github.com/Azure/bicep/blob/main/docs/tutorial/01-simple-template.md)
+- [Deploy Bicep file](https://github.com/Azure/bicep/blob/main/docs/tutorial/02-deploying-a-bicep-file.md)
 - [Referencing resources](https://github.com/Azure/bicep/blob/main/docs/tutorial/04-using-symbolic-resource-name.md)- 
