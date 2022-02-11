@@ -10,12 +10,15 @@ param resourceTags object = {
 var location = 'westeurope'
 
 resource mystgaccount 'Microsoft.Storage/storageAccounts@2021-06-01' = {
+  location: location
   name: stgaccountName
   kind: stgKind
-  location: location
   tags: resourceTags
   sku: {
     name: stgSKU
+  }
+  properties: {
+    accessTier: 'Hot'
   }
 }
 
