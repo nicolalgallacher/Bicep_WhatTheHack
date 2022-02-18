@@ -15,23 +15,18 @@ The students can end this challenge with "Hard Coded" Vaules. Variables will be 
 ## PowerShell Deploy 
 
 ```
-New-AzResourceGroup -Name $resourceGroupName -Force
+//New-AzResourceGroup -Name $resourceGroupName -Force
 
-New-AzResourceGroupDeployment `
-	-Name $deploymentName `
-	-ResourceGroupName $resourceGroupName `
-	-TemplateFile ./challenge-01.bicep `
+New-AzResourceGroupDeployment -Name deploy -ResourceGroupName "RESOURCE_GROUP_NAME" -TemplateFile ./Solution-01.bicep
+
  ```
 
 ## CLI 
 
 ```
-az group create --name $RESOURCE_GROUP_NAME
+//az group create --name $RESOURCE_GROUP_NAME
 
-az deployment group create \
-	--name $DEPLOYMENT_NAME \
-    --resource-group $RESOURCE_GROUP_NAME \
-    --template-file ./challenge-01.bicep
+az deployment group create --name deploy --resource-group "RESOURCE_GROUP_NAME" --template-file ./Solution-01.bicep
 
 ```
 
