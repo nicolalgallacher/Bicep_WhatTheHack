@@ -22,7 +22,7 @@ Your first challenge is to create a simple Bicep file that takes an input storag
 
 ## Description
 
-Develop a simple Bicep file that creates an Azure Storage Account.
+Develop a simple Bicep file that creates an Azure Storage Account with Hot Access Tier.
 
 Before starting please create a Resource Group in Azure for your Bicep work to be deployed to. 
 
@@ -35,7 +35,7 @@ Before starting please create a Resource Group in Azure for your Bicep work to b
 
 ## Success Criteria
 
-1. Create a simple Bicep file that creates an Azure Storage Account
+1. Create a simple Bicep file that creates an Azure Storage Account with Hot Access Tier
 2. You can deploy Bicep file using the CLI or PowerShell
 3. You can view the deployment in the Azure Portal 
 
