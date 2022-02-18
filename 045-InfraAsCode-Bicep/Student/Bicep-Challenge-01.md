@@ -4,7 +4,7 @@
 
 ## Pre-requisites
 
-Make sure your machine is set up with the proper tooling: [IaC Bicep Hack - Prerequisites](./Prerequisites.md)
+Make sure your machine is set up with the proper tooling: [IaC Bicep Hack - Prerequisites](./Bicep-Challenge-00.md)
 
 ## Introduction
 
