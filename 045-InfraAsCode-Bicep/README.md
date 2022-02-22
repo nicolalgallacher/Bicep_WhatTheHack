@@ -11,7 +11,7 @@ When implementing an application environment in the cloud, it is important to ha
 
 The best way to make deployments repeatable is to define them with code, hence the term "Infrastructure as Code" (aka IAC).  There are multiple technologies that enable you to achieve this. Some of these include:
 - ARM Templates with JSON
-- ARM Templates with Bicep
+- Azure Bicep
 - PowerShell Desired State Configuration (DSC)
 - HashiCorp's Terraform & Packer
 - Ansible, Chef, Puppet, Salt Stack, and others
@@ -21,9 +21,9 @@ This hack is focused on using Bicep to implement your IaC. It does not mean this
 ## Learning Objectives
 
 This hack will help you learn:
-- How ARM Templates with Bicep can be used to deploy Azure infrastructure
+- How Bicep can be used to deploy Azure infrastructure
 
-The challenges build upon each other incrementally. You will start by creating a basic Bicep template to get you familiar with the tools & syntax.  Then you extend your template incrementally to deploy multiple infrastructure resources to Azure.
+The challenges build upon each other incrementally. You will start by creating a basic Bicep template to get you familiar with the tools & syntax. Then you extend your template incrementally to deploy multiple infrastructure resources to Azure.
 
 ### Challenges
 
