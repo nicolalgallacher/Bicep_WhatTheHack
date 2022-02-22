@@ -7,8 +7,8 @@ param resourceTags object = {
   Project: 'Mastering Bicep'
 }
 
-var location = 'westeurope'
-var storageAccountName = 'bicepwth${uniqueString(resourceGroup().id)}'
+var location = 'uksouth'
+var storageAccountName = 'stgname${uniqueString(resourceGroup().id)}'
 
 resource mystgaccount 'Microsoft.Storage/storageAccounts@2021-06-01' = {
   name: storageAccountName
