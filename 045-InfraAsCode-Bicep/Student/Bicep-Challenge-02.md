@@ -9,11 +9,12 @@ In the last challenge you will have successfully completed the coding and deploy
 Redevelop your Bicep file from challenge 1 so that it takes inputs to create a Azure Storage Account using parameters, a variable, and returns an output.
    - The Bicep file must use parameters where appropriate 
    - A variable for your resources location
+   - Add a Project and Environment Tag of "Bicep" and "Development" respectively.
    - Leave the Access Tier property as Hot
    - The output must return a storage account id
    - Deploy it using the Azure CLI or Powershell
    - Observe the deployment in the Azure Portal
-
+   
 ## Success Criteria
 
 1. You can deploy Bicep file using both the CLI or PowerShell
