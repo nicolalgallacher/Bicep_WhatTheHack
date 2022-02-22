@@ -4,7 +4,7 @@ param stgSKU string = 'Standard_LRS'
 
 param resourceTags object = {
   Environment: 'Dev'
-  Project: 'Mastering Bicep'
+  Project: 'Bicep Hack'
 }
 
 var location = 'uksouth'
