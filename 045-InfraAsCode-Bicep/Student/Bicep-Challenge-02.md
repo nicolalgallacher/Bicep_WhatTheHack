@@ -1,6 +1,6 @@
  # Challenge 2 - Leveraging Parameters, Variables and Outputs
 
- [< Previous Challenge](./Bicep-Challenge-01.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-02.md)
+ [< Previous Challenge](./Bicep-Challenge-01.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-03.md)
 
 ## Introduction
 
