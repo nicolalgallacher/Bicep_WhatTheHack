@@ -4,7 +4,7 @@
 
 ## Notes & Guidance
 
-Students should at the end of this challenge be able to use Bicep functions and string interpolation to generate a unique Storage Account Name.
+Students should at the end of this challenge be able to use Bicep functions and string interpolation to generate a unique Storage Account Name, declared as a variable instead of a parameter.
 
 They should also demonstrate the capabilities of a boolean operator to map a 'True or False' Parameter value to a 'Hot or Cold' storage account tier.
 
