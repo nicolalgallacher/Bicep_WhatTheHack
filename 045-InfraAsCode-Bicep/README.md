@@ -30,11 +30,13 @@ The challenges build upon each other incrementally. You will start by creating a
 - Challenge 0: **[Pre-Requisites - Ready, Set, Go!](./Student/Bicep-Challenge-00.md)**
    - Prepare your workstation to work with Azure
 - Challenge 1: **[Basic Bicep](./Student/Bicep-Challenge-01.md)**
-   - Develop a simple Bicep file that takes inputs to create an Azure Storage Account, and returns outputs
-- Challenge 2: **[Bicep expressions and referencing resources](./Student/Bicep-Challenge-02.md)**
-   - Learn Bicep expressions and referencing resources
-- Challenge 3: **[Advanced resource declarations](./Student/Bicep-Challenge-03.md)**
-   - Advanced resource declarations
+   - Develop a simple Bicep file that creates an Azure Storage Account
+- Challenge 2: **[Leveraging Parameters, Variables and Outputs](./Student/Bicep-Challenge-02.md)**
+   - Improve the exisitng Bicep from Challenge 1 to use Variables, Parameters & Outputs
+- Challenge 3: **[Bicep expressions and Referencing resources](./Student/Bicep-Challenge-03.md)**
+   - See how using exsisting Bicep functions and Expresstions can improve your template 
+
+#### In Progress
 - Challenge 4: **[Secret Values with Azure Key Vault](./Student/Bicep-Challenge-04.md)**
    - Learn how NOT to lose your job!
 - Challenge 5: **[Deploy a Virtual Machine](./Student/Bicep-Challenge-05.md)**
@@ -55,16 +57,7 @@ The challenges build upon each other incrementally. You will start by creating a
 
 ## Prerequisites
 
-You will want to prepare your machine with the following to help complete the Challenges for this hack:
-
-* Azure Subscription
-* [Windows Subsystem for Linux (Windows 10-only)](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-* [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
-* [PowerShell Cmdlets for Azure](https://docs.microsoft.com/en-us/powershell/azure/?view=azps-5.6.0)
-* [Visual Studio Code](https://code.visualstudio.com/)
-* Bicep plugins for VS Code
-	* [Bicep VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep)
-	* [Bicep CLI](https://github.com/Azure/bicep/blob/main/docs/installing.md)
+link to challeng 0
 
 ## Repository Contents 
 - `../Student`
@@ -74,11 +67,7 @@ You will want to prepare your machine with the following to help complete the Ch
 
 ## Contributors
 
-- Victor Viriya-ampanond
-- William Salazar 
-- Peter Laudati
-- Pete Rodriguez
-- Tim Sullivan
-- Mark Garner
-- Jesse Mrasek
-- Andy Huang
+- [Based off the What the Hack GitRepo](https://github.com/Microsoft/WhatTheHack) 
+- Simon Brook
+- Chris Bennett
+- Nicola Gallacher
