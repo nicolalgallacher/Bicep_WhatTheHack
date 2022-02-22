@@ -39,6 +39,9 @@ Before starting please create a Resource Group in Azure for your Bicep work to b
 2. You can deploy Bicep file using the CLI or PowerShell
 3. You can view the deployment in the Azure Portal 
 
+## Before Moving On
+Please Delete the Storage Account you have made in this challenge.
+
 ## Resources
    -	Deploy using Azure CLI: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-cli
    -	Deploy using PowerShell: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-powershell
