@@ -3,8 +3,8 @@ param tier bool = true
 param stgSKU string = 'Standard_LRS'
 
 param resourceTags object = {
-  Environment: 'Dev'
-  Project: 'Bicep Hack'
+  Environment: 'Development'
+  Project: 'Bicep'
 }
 
 var location = 'uksouth'
