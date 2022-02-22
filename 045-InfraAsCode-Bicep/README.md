@@ -57,7 +57,7 @@ The challenges build upon each other incrementally. You will start by creating a
 
 ## Prerequisites
 
-link to challeng 0
+[Pre-Requisites - Ready, Set, Go!](./Student/Bicep-Challenge-00.md)
 
 ## Repository Contents 
 - `../Student`
