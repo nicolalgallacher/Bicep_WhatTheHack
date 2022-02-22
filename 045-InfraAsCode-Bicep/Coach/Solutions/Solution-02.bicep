@@ -1,4 +1,4 @@
-param stgaccountName string = 'cbstgaccukbicep'
+param stgaccountName string = 'uniquenamehere123'
 param stgKind string = 'StorageV2'
 param stgSKU string = 'Standard_LRS'
 
@@ -7,7 +7,7 @@ param resourceTags object = {
   Project: 'Mastering Bicep'
 }
 
-var location = 'westeurope'
+var location = 'uksouth'
 
 resource mystgaccount 'Microsoft.Storage/storageAccounts@2021-06-01' = {
   location: location
