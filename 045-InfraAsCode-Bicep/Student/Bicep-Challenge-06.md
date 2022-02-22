@@ -1,6 +1,6 @@
 # Challenge 6 - Deploy a Virtual Machine
 
-[< Previous Challenge](./Bicep-Challenge-04.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-06.md)
+[< Previous Challenge](./Bicep-Challenge-05.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-07.md)
 
 ## Introduction 
 
