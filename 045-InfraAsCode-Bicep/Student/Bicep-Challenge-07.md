@@ -1,6 +1,6 @@
 # Challenge 7 - Bicep Modules
 
-[< Previous Challenge](./Bicep-Challenge-05.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-07.md)
+[< Previous Challenge](./Bicep-Challenge-06.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-08.md)
 
 ## Introduction
 
