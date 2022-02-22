@@ -4,8 +4,15 @@
 
 ## Notes & Guidance
 
-Challenge 3 notes coming soon...
+Students should at the end of this challenge be able to use Bicep functions and string interpolation to generate a unique Storage Account Name.
+
+They should also demonstrate the capabilities of a boolean operator to map a 'True or False' Parameter value to a 'Hot or Cold' storage account tier.
+
+
 
 ## Learning Resources
+- [Bicep String Interpolation](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/bicep-functions-string#concat)
+- [Bicep Functions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/bicep-functions-resource)
+- [Boolean Operator Example](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/operators-logical#example-4)
 
-- [Advanced resource declarations](https://github.com/Azure/bicep/blob/main/docs/tutorial/05-loops-conditions-existing.md)
+
