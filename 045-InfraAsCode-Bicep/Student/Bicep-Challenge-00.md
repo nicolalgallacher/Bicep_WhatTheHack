@@ -30,3 +30,8 @@ In this challenge we'll be setting up all the tools we will need to complete our
 1. You have a bash shell at your disposal (Azure Cloud Shell or local via VSCode)
 2. Running `az --version` shows the version of your Azure CLI, at least version 2.20.x
 3. Visual Studio Code and Bicep tools are installed.
+
+## Resources
+
+  -	Quickstart ARM Templates: https://azure.microsoft.com/en-us/resources/templates/
+  -	Bicep Playground: https://bicepdemo.z22.web.core.windows.net/ 
