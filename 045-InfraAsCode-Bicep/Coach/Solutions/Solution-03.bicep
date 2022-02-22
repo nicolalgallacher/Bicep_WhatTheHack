@@ -20,7 +20,6 @@ resource mystgaccount 'Microsoft.Storage/storageAccounts@2021-06-01' = {
   }
   properties: {
     accessTier: tier ? 'Hot':'Cool'
-    supportsHttpsTrafficOnly: true
   }
 }
 
