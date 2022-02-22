@@ -40,9 +40,6 @@ Before starting please create a Resource Group in Azure for your Bicep work to b
 3. You can view the deployment in the Azure Portal 
 
 ## Resources
-
-   -	Quickstart ARM Templates: https://azure.microsoft.com/en-us/resources/templates/
-   -	Bicep Playground: https://bicepdemo.z22.web.core.windows.net/ 
    -	Deploy using Azure CLI: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-cli
    -	Deploy using PowerShell: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-powershell
    - MS Learn Bicep: https://docs.microsoft.com/en-us/learn/paths/fundamentals-bicep/
