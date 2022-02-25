@@ -1,107 +1,73 @@
-# Bicep_WhatTheHack
+# What The Hack: Infrastructure As Code with Bicep
 
-# What is What The Hack?
+## Introduction
 
-"What the Hack" is a set of challenge based hackathons that can be hosted in-person or virtually via Microsoft Teams.
+DevOps is a journey not a destination. Implementing Infrastructure-as-Code is one of the first steps you will need to take!
 
-Attendees work in squads of 3 to 5 people to solve a series of technical challenges for a given technology or solution scenario. Challenges describe high-level tasks and goals to be accomplished. Challenges are not step-by-step labs.
+When implementing an application environment in the cloud, it is important to have a repeatable way to deploy the underlying infrastructure components as well as your software into the target environment.  This includes resources such as:
+- Virtual Networks, Network Security Groups (Firewalls), Public IPs, Virtual Machines, Storage (Disks)
+- PaaS Services (Azure SQL, App Service, etc)
+- Configuration Management (installing & configuring software on VMs)
 
-What The Hack is designed to be a collaborative learning experience.  Attendees "learn from" and "share with" each other. Without step-by-step instructions given for the challenges, attendees have to "figure it out" together as a team.  This results in greater knowledge retention for the attendees. 
+The best way to make deployments repeatable is to define them with code, hence the term "Infrastructure as Code" (aka IAC).  There are multiple technologies that enable you to achieve this. Some of these include:
+- ARM Templates with JSON
+- Azure Bicep
+- PowerShell Desired State Configuration (DSC)
+- HashiCorp's Terraform & Packer
+- Ansible, Chef, Puppet, Salt Stack, and others
 
-The attendee squads are not alone in solving the challenges. Coaches work with each squad to provide guidance for, but not answers to, the challenges.  The coaches may also provide lectures and demos to introduce the challenges, as well as review challenge solutions throughout the event.
+This hack is focused on using Bicep to implement your IaC. It does not mean this is the only way to implement IaC, it's just one of many ways.
 
-# How to Host a What The Hack
+## Learning Objectives
 
-Would you like to host a What The Hack for your organization? The WTH format and content has been designed for hosting a hack with groups of 5 to 50 people. We welcome anyone to use the content here to host their own WTH event!
+This hack will help you learn:
+- How Bicep can be used to deploy Azure infrastructure
 
-See our complete guide on ["How To Host A Hack"](/000-HowToHack/WTH-HowToHostAHack.md).
+The challenges build upon each other incrementally. You will start by creating a basic Bicep template to get you familiar with the tools & syntax. Then you extend your template incrementally to deploy multiple infrastructure resources to Azure.
 
-# How to Create and Contribute a new What The Hack
+### Challenges
 
-Would you like to create a new What The Hack?  We welcome all new hacks!  We have developed a process for doing this.  This includes a set of guidelines and templates to help you package your hack up for the What The Hack repo!
+- Challenge 0: **[Pre-Requisites - Ready, Set, Go!](./Student/Bicep-Challenge-00.md)**
+   - Prepare your workstation to work with Azure
+- Challenge 1: **[Basic Bicep](./Student/Bicep-Challenge-01.md)**
+   - Develop a simple Bicep file that creates an Azure Storage Account
+- Challenge 2: **[Leveraging Parameters, Variables and Outputs](./Student/Bicep-Challenge-02.md)**
+   - Improve the exisitng Bicep from Challenge 1 to use Variables, Parameters & Outputs
+- Challenge 3: **[Bicep expressions and Referencing resources](./Student/Bicep-Challenge-03.md)**
+   - See how using exsisting Bicep functions and Expresstions can improve your template 
 
-Hacks can focus on a single technology or focus on a solution scenario that features multiple technologies working  together to solve a business problem.
+#### In Progress
+- Challenge 4: **[Secret Values with Azure Key Vault](./Student/Bicep-Challenge-04.md)**
+   - Learn how NOT to lose your job!
+- Challenge 5: **[Deploy a Virtual Machine](./Student/Bicep-Challenge-05.md)**
+   - Create complex deployment with multiple dependencies
+- Challenge 6: **[Bicep Modules](./Student/Bicep-Challenge-06.md)**
+   - Learn how create resusable modules for granular resource management
+- Challenge 7: **[Configure VM to run a Web Server](./Student/Bicep-Challenge-07.md)**
+   - Learn about custom script extensions
+- Challenge 8: **[Deploy a Virtual Machine Scale Set](./Student/Bicep-Challenge-08.md)**
+   - Create complex deployment with Bicep using modules
+- Challenge 9: **[Configure VM Scale Set to run a Web Server](./Student/Bicep-Challenge-09.md)**
+   - Learn about custom script extensions with VM Scale Sets
+- Challenge 10: **[Configure VM Scale Set to run a Web Server using cloud-init](./Student/Bicep-Challenge-10.md)**
+   - How cloud-init scripts can be run on a Virtual Machine Scale Set (VMSS)
+- Challenge 11: **[Deploy resources to different scopes](./Student/Bicep-Challenge-11.md)**
+   - Learn how to deploy resources to different scopes   
 
-See our complete guide on ["How To Author A Hack"](/000-HowToHack/WTH-HowToAuthorAHack.md).
 
-# The What The Hack Collection
+## Prerequisites
 
-Here is the current list of What The Hack hackathons available in this repository:
+[Pre-Requisites - Ready, Set, Go!](./Student/Bicep-Challenge-00.md)
 
-## Infrastructure
-- [Intro To Kubernetes](/001-IntroToKubernetes/README.md)
-- [Advanced Kubernetes](/023-AdvancedKubernetes/README.md)
-- [AKS Enterprise-Grade](/039-AKSEnterpriseGrade/README.md)
-- [Azure Arc Enabled Kubernetes](/026-ArcEnabledKubernetes/readme.md)
-- [Azure Arc enabled servers](/025-ArcEnabledServers/readme.md)
-- [Infrastructure As Code: Bicep](/045-InfraAsCode-Bicep/README.md)
-- [Infrastructure As Code: ARM & DSC](/011-InfraAsCode-ARM-DSC/readme.md)
-- [Infrastructure As Code: Terraform](/012-InfraAsCode-Terraform/Student/readme.md)
-- [Infrastructure As Code: Ansible](/013-InfraAsCode-Ansible/Student/readme.md)
-- [Azure Front Door](/017-FrontDoor/README.md)
-- [Advanced Networking](/028-AdvancedNetworking/README.md)
-- [Azure Networking with Hub & Spoke](/035-HubAndSpoke/README.md)
-- [Using BGP Networking for Hybrid Connectivity](/036-BGP/README.md)
-- [Azure Virtual WAN](/041-VirtualWAN/README.md)
-- [Azure Governance](/022-AzureGovernance/README.md)
-- [Mastering Linux](/020-MasteringLinux/README.md)
-- [Azure Virtual Desktop](/037-AzureVirtualDesktop/README.md)
-- [SAP On Azure](/042-SAPOnAzure/README.md)
+## Repository Contents 
+- `../Student`
+  - Bicep challenges
+- `../Student/Resources`
+  - Shell scripts needed to complete the challenges
 
-## Application Development
-- [Java on Azure App Service](/040-JavaOnAppService/README.md)
-- [Rock, Paper, Scissors, Boom!](/005-RockPaperScissorsBoom/README.md)
-- [App Modernization](/006-AppModernization/README.md)
-- [Microservices In Azure](/009-MicroservicesInAzure/README.md)
-- [Serverless](/015-Serverless/README.md)
-- [Migrating Applications To The Cloud](/016-AppMigration/README.md)
-- [IdentityForApps](/021-IdentityForApps/README.md)
-- [Mastering Linux](/020-MasteringLinux/README.md)
-- [FHIR Powered Healthcare](/027-FHIRPoweredHealthcare/readme.md)
+## Contributors
 
-## Operations
-- [Azure Monitoring](/007-AzureMonitoring/README.md)
-- [DevOps with GitHub](/031-DevOpsWithGitHub/readme.md)
-- [DevOps with GitHub Actions](/044-DevOpswithGitHubActions/README.md)
-- [Azure DevOps](/010-AzureDevOps/readme.md)
-- [Open Source DevOps](/014-OSSDevOps/readme.md)
-- [MLOps from Scratch](/032-MLOpsFromScratch/README.md)
-- [Mastering Linux](/020-MasteringLinux/README.md)
-
-## Data & AI
-- [SQL Modernization and Migration](/043-SQLModernization/README.md)
-- [OSS Database Migration](/033-OSSDatabaseMigration/README.md)
-- [MLOps from Scratch](/032-MLOpsFromScratch/README.md)
-- [IoT Process Control at the Edge](/029-IoTEdge/README.md)
-- [BI 2 AI](/018-BI2AI/README.md)
-- [This Old Data Warehouse](/019-ThisOldDataWarehouse/README.md)
-- [Modern Data Warehouse - Covid 19](/038-MDWCovid19/README.md)
-- [Do You Even Synapse](/024-DoYouEvenSynapse/README.md)
-- [Conversational AI](/030-ConversationalAI/README.md)
-- [Databricks/Intro to ML](/008-DatabricksIntroML/README.md)
-- [Intro To Azure AI](/002-IntroToAzureAI/README.md)
-- [Driving Miss Data](/003-DrivingMissData/README.md)
-
-## Microsoft Teams Platform
-- [Microsoft Teams: Make It Real](/034-MicrosoftTeams-MakeItReal/README.md)
-
-## Smart Edge & Devices
-
-- [IoT Process Control at the Edge](/029-IoTEdge/README.md)
-- [Azure Arc enabled Kubernetes](/026-ArcEnabledKubernetes/readme.md)
-- [Azure Arc enabled servers](/025-ArcEnabledServers/readme.md)
-
-## Networking
-- [Advanced Networking](/028-AdvancedNetworking/README.md)
-- [Azure Networking with Hub & Spoke](/035-HubAndSpoke/README.md)
-- [Using BGP Networking for Hybrid Connectivity](/036-BGP/README.md)
-- [Azure Virtual WAN](/041-VirtualWAN/README.md)
-- [Azure Front Door](/017-FrontDoor/README.md)
-
-# [License](https://github.com/Microsoft/WhatTheHack/blob/master/LICENSE)
-This repository is licensed under MIT license. More info can be found [here](https://github.com/Microsoft/WhatTheHack/blob/master/LICENSE).
-
-# [Contributing](https://github.com/Microsoft/WhatTheHack/blob/master/CONTRIBUTING.md)
-
-We welcome contributions and suggestions. More info can be found [here](https://github.com/Microsoft/WhatTheHack/blob/master/CONTRIBUTING.md).
-
+- [Based off the What the Hack GitRepo](https://github.com/Microsoft/WhatTheHack) 
+- Simon Brook
+- Chris Bennett
+- Nicola Gallacher
