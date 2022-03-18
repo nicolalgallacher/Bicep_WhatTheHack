@@ -11,6 +11,7 @@ A smart cloud solution architect always has the right tools in their toolbox.
 In this challenge we'll be setting up all the tools we will need to complete our challenges.
 
 - Install the recommended toolset:
+- If using cloud shell, ensure you have a storage account created for cloud shell to connect to
   - An [Azure Subscription](https://azure.microsoft.com/en-us/free/)
   - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
     - Must be at least version 2.20.x
