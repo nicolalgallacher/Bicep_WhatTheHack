@@ -24,7 +24,7 @@ In this challenge you will write Bicep files that make use of modules to achieve
 
 ## Learning Resources
 
-- [VMSS - Azure Resource Manager reference](https://docs.microsoft.com/en-us/azure/templates/microsoft.compute/virtualmachinescalesets?tabs=json)
+- [VMSS - Azure Resource Manager reference](https://docs.microsoft.com/azure/templates/microsoft.compute/virtualmachinescalesets?tabs=json)
 
 ## Tips
 

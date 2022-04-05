@@ -1,6 +1,6 @@
 # What The Hack: Common Prerequisites
 
-Thanks for participating in a What The Hack! We have compiled a list of common tools and software that will come in handy to complete these Azure based hacks! 
+Thanks for participating in a What The Hack! We have compiled a list of common tools and software that will come in handy to complete these Azure based hacks!
 
 You might not need all of them for the hack you are participating in.  However, if you work with Azure on a regular basis, these are all things you should consider having in your toolbox.
 
@@ -20,16 +20,16 @@ You might not need all of them for the hack you are participating in.  However, 
 
 You will need an Azure subscription to complete this hackathon. If you don't have one...
 
-[Sign Up for Azure HERE](https://azure.microsoft.com/en-us/free/)
+[Sign Up for Azure HERE](https://azure.microsoft.com/free/)
 
-Our goal in the hackathon is limiting the cost of using Azure services. 
+Our goal in the hackathon is limiting the cost of using Azure services.
 
 If you've never used Azure, you will get:
 - $200 free credits for use for up to 30 days
 - 12 months of popular free services  (includes storage, Linux VMs)
 - Then there are services that are free up to a certain quota
 
-Details can be found here on [free services](https://azure.microsoft.com/en-us/free/).
+Details can be found here on [free services](https://azure.microsoft.com/free/).
 
 If you have used Azure before, we will still try to limit cost of services by suspending, shutting down services, or destroy services before end of the hackathon. You will still be able to use the free services (up to their quotas) like App Service, or Functions.
 
@@ -39,7 +39,7 @@ The Windows Subsystem for Linux (WSL) lets developers run an entire Linux distri
 
 WSL is an essential tool Azure admins should have on their workstations if they are running Windows! If you work with Linux servers in Azure (or anywhere), having access to WSL enables you to easily connect to them and use all the tools you're used to.
 
-[Install the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+[Install the Windows Subsystem for Linux](https://docs.microsoft.com/windows/wsl/install-win10)
 
 If you drive a Mac or Linux workstation, then you've already got Terminal access, carry on! :)
 
@@ -50,8 +50,8 @@ We can manage cloud resources via the following ways:
 - Web Interface/Dashboard
   - [Azure Portal](https://portal.azure.com/)
 - CLI
-  - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
-  - [Azure PowerShell Cmdlets](https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps)
+  - [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli)
+  - [Azure PowerShell Cmdlets](https://docs.microsoft.com/powershell/azure/install-azurerm-ps)
 - CLI within Web Interface
   - [Azure Cloud Shell (Bash)](https://shell.azure.com/bash)
   - [Azure Cloud Shell (PowerShell)](https://shell.azure.com/powershell)
@@ -63,7 +63,7 @@ Build, manage, and monitor everything from simple web apps to complex cloud appl
 
 Manage your resources via a web interface (i.e. GUI) at [https://portal.azure.com/](https://portal.azure.com/)
 
-The Azure Portal is a great tool for quick prototyping, proof of concepts, and testing things out in Azure by deploying resources manually. However, when deploying production resources to Azure, it is highly recommended that you use an automation tool, templates, or scripts instead of the portal. 
+The Azure Portal is a great tool for quick prototyping, proof of concepts, and testing things out in Azure by deploying resources manually. However, when deploying production resources to Azure, it is highly recommended that you use an automation tool, templates, or scripts instead of the portal.
 
 ### Azure CLI
 
@@ -73,13 +73,13 @@ The Azure CLI will be the preferred (and supported) approach for this event, so 
 
 For Windows users, see the note below about how & where to install the Azure CLI!
 
-- [Install on Windows](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
-- [Install on macOS](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-macos?view=azure-cli-latest)
+- [Install on Windows](https://docs.microsoft.com/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
+- [Install on macOS](https://docs.microsoft.com/cli/azure/install-azure-cli-macos?view=azure-cli-latest)
 - Install on Linux or Windows Subsystem for Linux (WSL)
-  - [Install with apt on Debian or Ubuntu](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest)
-  - [Install with yum on RHEL, Fedora, or CentOS](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-yum?view=azure-cli-latest)
-  - [Install from script](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?view=azure-cli-latest)
-- [Run in Docker container](https://docs.microsoft.com/en-us/cli/azure/run-azure-cli-docker?view=azure-cli-latest)
+  - [Install with apt on Debian or Ubuntu](https://docs.microsoft.com/cli/azure/install-azure-cli-apt?view=azure-cli-latest)
+  - [Install with yum on RHEL, Fedora, or CentOS](https://docs.microsoft.com/cli/azure/install-azure-cli-yum?view=azure-cli-latest)
+  - [Install from script](https://docs.microsoft.com/cli/azure/install-azure-cli-linux?view=azure-cli-latest)
+- [Run in Docker container](https://docs.microsoft.com/cli/azure/run-azure-cli-docker?view=azure-cli-latest)
 
 #### Note for Windows Users
 
@@ -87,17 +87,17 @@ The Azure CLI can be installed locally on Windows. If you do this, you will acce
 
 While majority of the documentation should work fine locally on Windows, as you search the web for examples of how to use the Azure CLI, the examples frequently show Azure CLI commands used in Bash shell scripts. Bash shell scripts will not run in the Windows Command Prompt or PowerShell Console.
 
-For this reason, we recommend using [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) for interacting with the Azure CLI. This means you should install the Azure CLI within your WSL environment by following the instructions for the Linux distro you are using.
+For this reason, we recommend using [Windows Subsystem for Linux](https://docs.microsoft.com/windows/wsl/install-win10) for interacting with the Azure CLI. This means you should install the Azure CLI within your WSL environment by following the instructions for the Linux distro you are using.
 
 Alternatively, you can use the [Azure Cloud Shell](https://shell.azure.com/bash). This is discussed shortly in the next section.
 
 ### Azure PowerShell CmdLets
 
-Azure PowerShell provides a set of cmdlets that use the Azure Resource Manager model for managing your Azure resources. 
+Azure PowerShell provides a set of cmdlets that use the Azure Resource Manager model for managing your Azure resources.
 
-[Install the Azure PowerShell Cmdlets](https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps)
+[Install the Azure PowerShell Cmdlets](https://docs.microsoft.com/powershell/azure/install-azurerm-ps)
 
-The Azure PowerShell Cmdlets are functionally equivalent to the Azure CLI and can be used to complete all of the challenges instead of the Azure CLI. 
+The Azure PowerShell Cmdlets are functionally equivalent to the Azure CLI and can be used to complete all of the challenges instead of the Azure CLI.
 
 
 ### Azure Cloud Shell
@@ -156,6 +156,6 @@ Inside any JSON file, start typing **`arm!`** to see a list of snippets availibl
 
 Azure Storage Explorer is a cross-platform tool that lets you manage and access Azure Storage account resources in a GUI similar to Windows File Explorer or Finder on Mac.  Like VS Code, Azure Storage Explorer can be installed on Windows, Mac, or Linux.
 
-ARM templates and any resources they depend on (nested templates, script files, etc) need to be staged in a location where the Azure Resource Manager can access them via an HTTP endpoint. We will be using Azure Storage explorer during the hackathon to copy files to/from Azure Blob storage for staging purposes. 
+ARM templates and any resources they depend on (nested templates, script files, etc) need to be staged in a location where the Azure Resource Manager can access them via an HTTP endpoint. We will be using Azure Storage explorer during the hackathon to copy files to/from Azure Blob storage for staging purposes.
 
-[Install Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
+[Install Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)

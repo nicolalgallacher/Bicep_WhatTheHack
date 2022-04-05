@@ -6,4 +6,4 @@
 
 Challenge 10 notes coming soon...
 
-- [Tutorial - How to use cloud-init to customize a Linux virtual machine in Azure on first boot](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-automate-vm-deployment)
+- [Tutorial - How to use cloud-init to customize a Linux virtual machine in Azure on first boot](https://docs.microsoft.com/azure/virtual-machines/linux/tutorial-automate-vm-deployment)

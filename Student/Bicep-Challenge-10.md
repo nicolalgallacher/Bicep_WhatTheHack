@@ -10,7 +10,7 @@ The goals of this challenge include understanding:
 
 ## Description
 
-We have provided a script (`install_apache_vmss.sh`) that configures Apache web server on a Linux VMSS. When run on an individual VM instance, the script deploys a static web page that should be available at: `http://<PublicIPofTheLoadBalancer>/wth.html`  
+We have provided a script (`install_apache_vmss.sh`) that configures Apache web server on a Linux VMSS. When run on an individual VM instance, the script deploys a static web page that should be available at: `http://<PublicIPofTheLoadBalancer>/wth.html`
 
 You can find the script in the Resources folder for **Bicep-Challenge-09**.
 
@@ -26,5 +26,5 @@ Your challenge is to:
 
 ## Learning Resources
 
-- Read a text file using [PowerShell](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-content?view=powershell-7.1)
+- Read a text file using [PowerShell](https://docs.microsoft.com/powershell/module/microsoft.powershell.management/get-content?view=powershell-7.1)
 - Read a text file using a [Linux shell](https://askubuntu.com/questions/261900/how-do-i-open-a-text-file-in-my-terminal)

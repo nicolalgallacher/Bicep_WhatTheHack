@@ -2,7 +2,7 @@
 
 [< Previous Challenge](./Bicep-Challenge-05.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-07.md)
 
-## Introduction 
+## Introduction
 
 In this challenge, you will put all the pieces together and extend your Bicep template to deploy a Virtual Machine in Azure.
 
@@ -32,5 +32,5 @@ The goals for this challenge include understanding:
 
 ## Learning Resources
 
-- [Define resources with Bicep and ARM templates](https://docs.microsoft.com/en-us/azure/templates/)
-- [Virtual Machine - Azure Resource Manager reference](https://docs.microsoft.com/en-us/azure/templates/microsoft.compute/virtualmachines?tabs=bicep)
+- [Define resources with Bicep and ARM templates](https://docs.microsoft.com/azure/templates/)
+- [Virtual Machine - Azure Resource Manager reference](https://docs.microsoft.com/azure/templates/microsoft.compute/virtualmachines?tabs=bicep)

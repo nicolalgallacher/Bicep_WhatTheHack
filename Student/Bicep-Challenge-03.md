@@ -17,7 +17,6 @@ In this challenge you will edit the bicep file created in Challenge 2. The goals
 + Use string interpolation to concatenate the `uniqueString()` value with a storage account prefix of your choice
 + Provide an input parameter named `tier` of type `bool`  and use the ternary operator to switch the storage account sku name between `Hot` & `Cool` depending on whether the parameter value is `true` or `false`, respectively.
 
-
 ## Success Criteria
 
 1. You can deploy Azure Storage Account without hard-coding inputs

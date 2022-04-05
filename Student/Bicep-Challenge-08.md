@@ -19,7 +19,7 @@ Your challenge is to:
 
 - Extend the Bicep template to configure a webserver on the Linux VM you deployed.
 - There are two options for how to do this:
-    
+
     - Option 1:
         - Host the script file in a secure artifact (staging) location that is only accessible to the Azure Resource Manager.
         - Pull the website configuration script from the artifact location.
@@ -38,5 +38,5 @@ Your challenge is to:
 
 ## Learning Resources
 
-- Read a text file using [PowerShell](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-content?view=powershell-7.1)
+- Read a text file using [PowerShell](https://docs.microsoft.com/powershell/module/microsoft.powershell.management/get-content?view=powershell-7.1)
 - Read a text file using a [Linux shell](https://askubuntu.com/questions/261900/how-do-i-open-a-text-file-in-my-terminal)

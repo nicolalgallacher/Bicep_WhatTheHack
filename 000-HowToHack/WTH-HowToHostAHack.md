@@ -19,7 +19,7 @@ At a minimum, three things:
 
 ### Hack Content
 
-First and most important is hack content. The What The Hack collection has many different hackathons that have been contributed. 
+First and most important is hack content. The What The Hack collection has many different hackathons that have been contributed.
 
 Choose a hack from the [What The Hack Collection](../readme.md#what-the-hack-collection)
 
@@ -31,17 +31,17 @@ Next, you need Microsoft Teams. Specifically, you will need to create a team for
 
 **NOTE:** While you could host a What The Hack event using other collaboration tools, we strongly recommend using Microsoft Teams. When we stay "strongly recommend", it means we are writing this document based on using Teams. You're on your own if you don't want to use Teams!
 
-During a What The Hack event, attendees work together in squads of 3 to 5 people to solve the hack's challenges. The attendees will need to share links, code snippets, or even screen share as they collaborate on the challenge solutions. Microsoft Teams makes this easy by having each squad assigned a Channel to work in. 
+During a What The Hack event, attendees work together in squads of 3 to 5 people to solve the hack's challenges. The attendees will need to share links, code snippets, or even screen share as they collaborate on the challenge solutions. Microsoft Teams makes this easy by having each squad assigned a Channel to work in.
 
 At an in-person event, each squad will be sitting at the same table. During a virtual event, everyone will be sitting at home in their pajamas. The main difference is that during a virtual event, attendees will need to join a call in their squad's channel for the duration of the event. Most other aspects of the event are the same.
 
 **NOTE:** Why are the groups of 3 to 5 attendees working together called "squads"? It is natural to call them "teams" or "hack teams". However, the word "teams" is overloaded when we talk about "Microsoft Teams" (the app) and the "team" within the app that is created for the event. So, "squads" it is!
 
-### People 
+### People
 
 Finally, you need people to hack. There are a few different roles that will need to be played at your What The Hack event. They include:
 - Lead Coach
-	- The lead of the event both logistically and technically. 
+	- The lead of the event both logistically and technically.
 	- Responsible for the event preparation steps [outlined below](#event-preparation).
 	- This person should be intimately familiar with the content and all of its solutions.
 	- Delivers kick off meeting & challenge intro lecture presentations (if required)
@@ -75,9 +75,9 @@ If you are hosting a hack with a single organization, it is a good practice to i
 
 You will need to have “Guest” access enabled in your Microsoft Teams tenant to have the external individuals to be part of the event. External attendees are not required to have a user license in Microsoft Teams. You will be inviting them into your event's team as a guest. This is covered by your organization’s guest licenses which are included with its Office 365 license.
 
-Adding external users as guests in Microsoft Teams requires you to add each user manually via the Teams admin UI. 
+Adding external users as guests in Microsoft Teams requires you to add each user manually via the Teams admin UI.
 
-For more information, see [Guest access in Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/guest-access)
+For more information, see [Guest access in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/guest-access)
 
 **NOTE:** Guest access is an organization-wide setting in Microsoft Teams. Therefore, in most organizations, enabling Guest acccess is typically managed by someone in the IT department who is **NOT** you.  If it is not enabled in your organization, you might want to consider using the external organization's tenant as described in the next section.
 
@@ -89,11 +89,11 @@ This provides the benefit of the external organization having full access and co
 
 #### Audio Conferencing
 
-Some individuals may not have a computer with speakers and a microphone or be equipped with a headset. In that case, you will need to provide a dial-in number for the event. This will require that you have the “Audio Conferencing” license within your Microsoft Teams account (included in the Office 365 E5 plan). 
+Some individuals may not have a computer with speakers and a microphone or be equipped with a headset. In that case, you will need to provide a dial-in number for the event. This will require that you have the “Audio Conferencing” license within your Microsoft Teams account (included in the Office 365 E5 plan).
 
 Individuals that join in over their computer or mobile device will leverage voice over IP and do not require the Audio Conferencing license. In all cases people will utilize the Microsoft Teams client or a web browser to join the video, screen sharing, and collaboration aspects within Microsoft Teams.
 
-For more information, see: [Audio Conferencing in Microsoft 365](https://docs.microsoft.com/en-us/microsoftteams/audio-conferencing-in-office-365)
+For more information, see: [Audio Conferencing in Microsoft 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)
 
 #### Privacy
 
@@ -101,9 +101,9 @@ When inviting external participants, make sure you follow your organization's pr
 
 #### Azure Subscription
 
-Most of the hacks in the What The Hack collection require attendees to have "Contributor" access to an Azure subscription. 
+Most of the hacks in the What The Hack collection require attendees to have "Contributor" access to an Azure subscription.
 
-It is important to work with the event stakeholder to decide how attendees will access Azure. Some organizations may provide individuals with their own subscriptions.  Other organizations may provide access to a shared subscription created specifically for attendees to use during the hack event. 
+It is important to work with the event stakeholder to decide how attendees will access Azure. Some organizations may provide individuals with their own subscriptions.  Other organizations may provide access to a shared subscription created specifically for attendees to use during the hack event.
 
 If the organization provides the attendees with access to an Azure subscription, it is a good practice to share what the predicted cost of Azure resources used during the hack will be. No one wants a surprise bill at the end.
 
@@ -111,13 +111,13 @@ If the organization is not providing access to an Azure subscription for the hac
 
 If an attendee has a Visual Studio subscription, they can use the free Azure credits that come with it. Credit amounts vary by subscription level.
 
-For more information, see: [Use Microsoft Azure in Visual Studio subscriptions](https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-azure)
+For more information, see: [Use Microsoft Azure in Visual Studio subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure)
 
-Finally, attendees can create a free trial Azure account to participate in the hack event by [signing up for Azure HERE.](https://azure.microsoft.com/en-us/free/)
+Finally, attendees can create a free trial Azure account to participate in the hack event by [signing up for Azure HERE.](https://azure.microsoft.com/free/)
 
 #### Workstation Security
 
-Some organizations have tight security policies enforced on their employees' workstations. A common one is to not provide users with adminstrator priviledges on their workstation. If this is the case, it may prevent them from installing tools or software needed to complete the hack.  
+Some organizations have tight security policies enforced on their employees' workstations. A common one is to not provide users with adminstrator priviledges on their workstation. If this is the case, it may prevent them from installing tools or software needed to complete the hack.
 
 One workaround is to use the Azure Cloud Shell. However, some organizations may disable access to the Azure Cloud Shell.  Another workaround is to provision a workstation VM in Azure that attendees can RDP into to complete the hack.
 
@@ -127,7 +127,7 @@ All of these security concerns and their mitigations should be identified and ad
 
 ### Microsoft Team Creation
 
-Now that you've gotten all of the overhead out of the way, it's time to build your event's team in Teams.  
+Now that you've gotten all of the overhead out of the way, it's time to build your event's team in Teams.
 
 Create a new team for your What The Hack event in Microsoft Teams that will be used as the dedicated event space. This space will host documents, multiple channels for presenting, screen sharing, and overall collaboration in real and near real-time.
 
@@ -174,7 +174,7 @@ If the challenges are published in Markdown files, we recommend pinning the hack
 
 #### Student Resources
 
-Many hacks in the [What The Hack Collection](../readme.md#what-the-hack-collection) have provided resources (code snippets, templates, etc) needed for the hack in their `/HackName/Student/Resources` folder.  
+Many hacks in the [What The Hack Collection](../readme.md#what-the-hack-collection) have provided resources (code snippets, templates, etc) needed for the hack in their `/HackName/Student/Resources` folder.
 
 The lead coach should copy the contents of this folder from the repo and then upload them into the General Channel's Files tab. This will provide the files to the attendees in Microsoft Teams without them needing to visit the What The Hack repo on GitHub.
 
@@ -189,7 +189,7 @@ You should also upload both the Event Kickoff presentation and any lecture prese
 
 #### Shared Tips/Wiki (Optional)
 
-During a What The Hack event, attendees are strongly encouraged to share knowledge and learn from each other. Knowledge sharing is encouraged across the entire event, including between squads.  
+During a What The Hack event, attendees are strongly encouraged to share knowledge and learn from each other. Knowledge sharing is encouraged across the entire event, including between squads.
 
 One way to encourage that is to create a place for attendees to share tips, tricks, and solutions discovered with each other. The attendees could use the Channel chats or Wiki feature in Microsoft Teams for this purpose.  However, we recommend creating a "Shared Tips" Word document and pinning it as a tab within the General channel. This makes the document portable and easier to download after the event.
 
@@ -225,7 +225,7 @@ Whether you used an online registration service or worked with an external organ
 
 There are differences how you add people to a team in Microsoft Teams if they are part of your organization versus part of an external organization. Attendees from an external organization must be added to a team in Microsoft Teams manually, one-by-one, using their email addresses, via the team admin screen.
 
-To add external guests, see: [Add guests to a team in Teams](https://support.office.com/en-us/article/Add-guests-to-a-team-in-Teams-fccb4fa6-f864-4508-bdde-256e7384a14f)
+To add external guests, see: [Add guests to a team in Teams](https://support.office.com/article/Add-guests-to-a-team-in-Teams-fccb4fa6-f864-4508-bdde-256e7384a14f)
 
 **Example of adding attendees to a team via the admin interface:**
 
@@ -237,9 +237,9 @@ We recommend creating a "join code" to share with internal organization attendee
 
 For an in-person event, you can share the join code on the screen during the kick off meeting on event day.
 
-To create a join code, see: [Create a link or code for joining a team](https://support.microsoft.com/en-us/office/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f?ui=en-us&rs=en-us&ad=us)
+To create a join code, see: [Create a link or code for joining a team](https://support.microsoft.com/office/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f?ui=en-us&rs=en-us&ad=us)
 
-To use the join code, see: [Use a link or code to join a team](https://support.microsoft.com/en-us/office/use-a-link-or-code-to-join-a-team-c957af50-df15-46e3-b5c4-067547b64548?ui=en-us&rs=en-us&ad=us)
+To use the join code, see: [Use a link or code to join a team](https://support.microsoft.com/office/use-a-link-or-code-to-join-a-team-c957af50-df15-46e3-b5c4-067547b64548?ui=en-us&rs=en-us&ad=us)
 
 **Example of creating a join code for a team:**
 
@@ -250,7 +250,7 @@ Once your attendees have been added to the event team, you can communicate with 
 #### Calendar Invite
 
 Calendar invites are always important so attendees don't forget about your event.
-If someone is traveling to attend your event in person, they're not likely to forget to show up.  
+If someone is traveling to attend your event in person, they're not likely to forget to show up.
 
 When it comes to hosting a virtual What The Hack event, a Calendar block is even MORE important. The key word is **BLOCK**! You need the attendees to clear their calendar so they are dedicated to participating in the hack for the full event. Attendees leaving part way through the hack are putting their squad's success at risk.
 
@@ -273,7 +273,7 @@ If you are inviting people from your own organization, we have had good experien
 
 For more information, see: [Automate Registration with Office 365](WTH-AutomateRegistrationWithO365.md)
 
-## Event Day 
+## Event Day
 
 The big day has arrived! It's showtime!  Rest well and get a full night of sleep beforehand. You will need it to be fresh on hack day.
 
@@ -284,8 +284,8 @@ Below is the guidance on how to actually host and run a What The Hack event:
 - [Stand Ups](#stand-ups)
 - [In-Person Event Tips](#tips-for-in-person)
 - [Virtual Event Tips](#tips-for-virtual)
-	
-### Kick-Off Meeting 
+
+### Kick-Off Meeting
 
 Every What The Hack event starts off with a Kick Off Meeting.  *How* you get to the kick off meeting depends on if it is a virtual or an in-person event.
 
@@ -320,7 +320,7 @@ To join the kick off meeting, attendees will first click the link to the General
 This can be tricky as most Teams users are used to clicking the "Join Teams Meeting" button in their Outlook calendar invite. Congratulate all attendees when they join the meeting for completing their first challenge:  Finding the kick off meeting.
 
 **NOTE:** It is important for the Lead Coach to start the kick-off meeting ahead of the start time. It is technically possible to have multiple parallel meetings in a channel at the same time. If a meeting has not been started, arriving attendees may start their own meeting(s) in the General channel by clicking the "Meet Now" button. This can lead to confusion as to which one to join.
-    
+
 
 #### Welcomes & Intros
 
@@ -410,7 +410,7 @@ Once everyone is settled, the format and interactions are the same whether virtu
 - Squads must complete the challenges as a team. Individuals who complete a challenge before their squad-mates should not continue to the next challenge. Instead, they should help other members of their squad get over the finish line.
 - While the squad works together solve the challenges, it is expected that each individual contributes meaningfully to the group and completes the challenge on their own workstation.
 - To ensure each individual is contributing to the team effort, we recommend one person be the "designated driver" for each challenge and share their screen with the squad as they work through the challenge for all to observe. The rest of the squad may be doing research or implementing the solution in parallel on their own workstation.
-- As people get stuck the coaches should encourage them to talk through the issues with the squad and share their screen to work through the challenge. Group collaboration is a very effective learning tool.  
+- As people get stuck the coaches should encourage them to talk through the issues with the squad and share their screen to work through the challenge. Group collaboration is a very effective learning tool.
 - If a person within the squad is having a problem that requires individual attention, the coach can ask the person to go to the coach’s dedicated channel where they can start a channel meeting and work together to resolve the issues.
 - Sharing is caring. As individuals or squads find useful tips and tricks, or solve roadblocks, the coaches should encourage them to share those items in the General Channel as a Chat or within the Shared Tips document.
 - Squads should not be beholden to the clock as they progress through the challenges. Therefore, they control their own schedule during the event and can decide to take breaks as needed outside of any scheduled meal breaks.
@@ -433,7 +433,7 @@ During the hack, a coach's responsibilities include:
     - Encourage attendees to “learn from” and “share with” each other
     - If a coach observes individuals racing ahead, encourage them to help those who are behind.
     - Encourage attendees to use their squad’s channel to collaborate/share info
-	- Encourage attendees to take turns "driving" for each challenge so each gets an opportunity to lead their squad 
+	- Encourage attendees to take turns "driving" for each challenge so each gets an opportunity to lead their squad
 - Help unblock squads that get stuck
     - Always and repeatedly encourage squad members to unblock each other first
     - Provide hints, but not answers
@@ -507,5 +507,5 @@ It is possible to host a "hybrid" event that has some attendees and coaches in p
 	- This is a great solution when you want to host an event for attendees in a different region
 	- The coaches need to adjust their working hours to support the remote region.  For example, to support an event in Australia, a coach in the eastern US time zone would need to agree to work from 5pm to 1am.
 	- This does require volunteers to be designated as facilitators in the physical venue. The facilitators are responsible for the A/V connectivity to the remote coaches and raising questions from attendees in the venue to the online coaches.
-- Hosting an event where individual squads work together in person, but distributed and remote from other squads. 
-	- For example, squads can work together in New York, Chicago, and Seattle. The lead coach may be in Chicago leading all three groups online. 
+- Hosting an event where individual squads work together in person, but distributed and remote from other squads.
+	- For example, squads can work together in New York, Chicago, and Seattle. The lead coach may be in Chicago leading all three groups online.

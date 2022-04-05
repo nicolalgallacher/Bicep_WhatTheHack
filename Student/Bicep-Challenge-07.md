@@ -20,7 +20,7 @@ The network architecture and security groups are typically stable and do not cha
 
 ## Description
 
-In this challenge you will separate your existing Bicep template deployment into two sets of modules. 
+In this challenge you will separate your existing Bicep template deployment into two sets of modules.
 
 - Separate networking resources (Virtual Network & Network Security Groups) in to their own module.
 - Separate the VM and its dependencies into their own module
@@ -36,5 +36,5 @@ By separating the networking resources into their own modules, an application te
 
 ## Learning Resources
 
-- [Use Bicep modules](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/modules)
-- [Using linked and nested ARM Templates with JSON when deploying Azure resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/linked-templates) - Read this to appreciate how much Bicep improves upon the complexity of linked templates with ARM Templates with JSON.
+- [Use Bicep modules](https://docs.microsoft.com/azure/azure-resource-manager/bicep/modules)
+- [Using linked and nested ARM Templates with JSON when deploying Azure resources](https://docs.microsoft.com/azure/azure-resource-manager/templates/linked-templates) - Read this to appreciate how much Bicep improves upon the complexity of linked templates with ARM Templates with JSON.

@@ -20,5 +20,5 @@ Your challenge is to:
 
 ## Learning Resources
 
-- [Using Bicep modules](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/modules)
--  [Understanding Bicep scopes](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-to-subscription?tabs=azure-cli)
+- [Using Bicep modules](https://docs.microsoft.com/azure/azure-resource-manager/bicep/modules)
+-  [Understanding Bicep scopes](https://docs.microsoft.com/azure/azure-resource-manager/bicep/deploy-to-subscription?tabs=azure-cli)

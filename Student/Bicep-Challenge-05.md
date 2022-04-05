@@ -22,7 +22,6 @@ Your challenge, should you accept it, is to:
     - create-key-vault-PS.ps1 - PowerShell
 + Retrieve the secret value from Azure Key Vault and pass it into your template as a parameter without having the value exposed as plain text at any point in time!
 
-
 ## Success Criteria
 
 1. Verify the value of the parameter in the portal after deployment

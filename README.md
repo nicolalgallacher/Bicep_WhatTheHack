@@ -32,9 +32,9 @@ The challenges build upon each other incrementally. You will start by creating a
 - Challenge 1: **[Basic Bicep](./Student/Bicep-Challenge-01.md)**
    - Develop a simple Bicep file that creates an Azure Storage Account
 - Challenge 2: **[Leveraging Parameters, Variables and Outputs](./Student/Bicep-Challenge-02.md)**
-   - Improve the exisitng Bicep from Challenge 1 to use Variables, Parameters & Outputs
+   - Improve the existing Bicep from Challenge 1 to use Variables, Parameters & Outputs
 - Challenge 3: **[Bicep expressions and Referencing resources](./Student/Bicep-Challenge-03.md)**
-   - See how using exsisting Bicep functions and Expresstions can improve your template 
+   - See how using existing Bicep functions and Expressions can improve your template
 
 #### In Progress
 - Challenge 4: **[Secret Values with Azure Key Vault](./Student/Bicep-Challenge-04.md)**
@@ -42,7 +42,7 @@ The challenges build upon each other incrementally. You will start by creating a
 - Challenge 5: **[Deploy a Virtual Machine](./Student/Bicep-Challenge-05.md)**
    - Create complex deployment with multiple dependencies
 - Challenge 6: **[Bicep Modules](./Student/Bicep-Challenge-06.md)**
-   - Learn how create resusable modules for granular resource management
+   - Learn how create reusable modules for granular resource management
 - Challenge 7: **[Configure VM to run a Web Server](./Student/Bicep-Challenge-07.md)**
    - Learn about custom script extensions
 - Challenge 8: **[Deploy a Virtual Machine Scale Set](./Student/Bicep-Challenge-08.md)**
@@ -52,14 +52,14 @@ The challenges build upon each other incrementally. You will start by creating a
 - Challenge 10: **[Configure VM Scale Set to run a Web Server using cloud-init](./Student/Bicep-Challenge-10.md)**
    - How cloud-init scripts can be run on a Virtual Machine Scale Set (VMSS)
 - Challenge 11: **[Deploy resources to different scopes](./Student/Bicep-Challenge-11.md)**
-   - Learn how to deploy resources to different scopes   
+   - Learn how to deploy resources to different scopes
 
 
 ## Prerequisites
 
 [Pre-Requisites - Ready, Set, Go!](./Student/Bicep-Challenge-00.md)
 
-## Repository Contents 
+## Repository Contents
 - `../Student`
   - Bicep challenges
 - `../Student/Resources`
@@ -67,7 +67,7 @@ The challenges build upon each other incrementally. You will start by creating a
 
 ## Contributors
 
-- [Based off the What the Hack GitRepo](https://github.com/Microsoft/WhatTheHack) 
+- [Based off the What the Hack GitRepo](https://github.com/Microsoft/WhatTheHack)
 - Simon Brook
 - Chris Bennett
 - Nicola Gallacher

@@ -8,7 +8,7 @@ Make sure your machine is set up with the proper tooling: [IaC Bicep Hack - Prer
 
 ## Introduction
 
-Our 1st challenge looks to introduce you to deploying Bicep files and getting used to the syntax within them compared to ARM templates. 
+Our 1st challenge looks to introduce you to deploying Bicep files and getting used to the syntax within them compared to ARM templates.
 
 The goals for this challenge include understanding:
 - Why Bicep is an improvement over the current ARM template language
@@ -24,10 +24,10 @@ Your first challenge is to create a simple Bicep file that takes an input storag
 
 Develop a simple Bicep file that creates an Azure Storage Account with Hot Access Tier.
 
-Before starting please create a Resource Group in Azure for your Bicep work to be deployed to. 
+Before starting please create a Resource Group in Azure for your Bicep work to be deployed to.
 
-   -	Validate Setup and get familiar with VS Code
-   -	Sign In to Azure Portal using Powershell or Azure CLI
+   - Validate Setup and get familiar with VS Code
+   - Sign In to Azure Portal using Powershell or Azure CLI
    - Create a simple Bicep file
    - Deploy it using the Azure CLI or PowerShell
    - Observe the deployment in the Azure Portal
@@ -37,15 +37,15 @@ Before starting please create a Resource Group in Azure for your Bicep work to b
 
 1. Create a simple Bicep file that creates an Azure Storage Account with Hot Access Tier
 2. You can deploy Bicep file using the CLI or PowerShell
-3. You can view the deployment in the Azure Portal 
+3. You can view the deployment in the Azure Portal
 
 ## Before Moving On
 Please Delete the Storage Account you have made in this challenge.
 
 ## Resources
-   -	Deploy using Azure CLI: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-cli
-   -	Deploy using PowerShell: https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-powershell
-   - MS Learn Bicep: https://docs.microsoft.com/en-us/learn/paths/fundamentals-bicep/
+   -	Deploy using Azure CLI: https://docs.microsoft.com/azure/azure-resource-manager/bicep/deploy-cli
+   -	Deploy using PowerShell: https://docs.microsoft.com/azure/azure-resource-manager/bicep/deploy-powershell
+   - MS Learn Bicep: https://docs.microsoft.com/learn/paths/fundamentals-bicep/
 
 
 
