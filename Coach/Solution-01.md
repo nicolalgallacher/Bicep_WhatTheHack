@@ -29,7 +29,9 @@ New-AzResourceGroupDeployment -Name deploy -ResourceGroupName "RESOURCE_GROUP_NA
 az deployment group create --name deploy --resource-group "RESOURCE_GROUP_NAME" --template-file ./Solution-01.bicep
 
 ```
+## What-If
 
+Remember to ensure that students leverage the What-If switch regardless of whether they intend to use CLI or Powershell.  It's important they understand the power of the What-If switch.
 ## Learning Resources
 
 Learn how to "fish" for Bicep:
