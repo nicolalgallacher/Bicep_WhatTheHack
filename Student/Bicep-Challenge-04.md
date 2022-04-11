@@ -4,18 +4,20 @@
 
 ## Introduction
 
-The goals for this challenge include understanding:
- - How to reference to an existing resource
- - Creating a set of resources based on a list or count (loops)
- - Conditionally deploying a resource
+The goals for this challenge include:
+ - Creating a set of resources based on a integer index count (loops)
+ - Amending the 'location' variable to fall inline with Bicep best practices
 
 ## Description
-Create a new Bicep file that add additional blob containers to an already existing storage account created in previous challenges
+Amend the Bicep file to perform the following:
+- A 'for' loop to create multiple storage accounts based on an 'integer' index count.
+- Change the 'location' variable to fall inline with Bicep best practices
     
-+ You should declare a storage account by referencing an already `existing` storage account created in the earlier challenges. The file must not contain a full declaration of the storage account.
-+ The Bicep file will take an array of strings representing container names as an input and use a `for loop` to create containers in the list within the existing storage account.
-
 ## Success Criteria
 
-1. Use the Azure portal to verify new containers were added to the storage account.
+- Use the Azure portal to verify 2 new unique storage accounts have been created.
+- Confirm you no longer have deployment warnings against the 'location' field
 
+## References
+
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/loops
