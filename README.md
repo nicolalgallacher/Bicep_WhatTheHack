@@ -59,6 +59,8 @@ The challenges build upon each other incrementally. You will start by creating a
 
 [Pre-Requisites - Ready, Set, Go!](./Student/Bicep-Challenge-00.md)
 
+**NOTE:** These can take approx 30mins if you have updates to carry out so please allow time for this before starting other challenges
+
 ## Repository Contents 
 - `../Student`
   - Bicep challenges
