@@ -15,8 +15,6 @@ In this challenge we'll be setting up all the tools we will need to complete our
   - An [Azure Subscription](https://azure.microsoft.com/en-us/free/)
   - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
     - Must be at least version 2.20.x
-    - **NOTE:** If installing on a Windows workstation, install into the Windows Subsystem for Linux environment using the installation instructions for Linux.
-    - **NOTE:** If you’re running into issues running Azure CLI command on Windows, disable Global Protect (VPN)
   - OPTIONAL [PowerShell Cmdlets for Azure](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.4.0)
   - [Visual Studio Code](https://code.visualstudio.com/)
   - Bicep plugins for VS Code
