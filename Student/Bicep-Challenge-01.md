@@ -29,6 +29,7 @@ Before starting please create a Resource Group in Azure for your Bicep work to b
    -	Validate Setup and get familiar with VS Code
    -	Sign In to Azure Portal using Powershell or Azure CLI
    - Create a simple Bicep file
+   - Confirm hat changes will be applied before the actual deployment
    - Deploy it using the Azure CLI or PowerShell
    - Observe the deployment in the Azure Portal
    - Start to think about ways the Bicep file can be improved
@@ -36,8 +37,9 @@ Before starting please create a Resource Group in Azure for your Bicep work to b
 ## Success Criteria
 
 1. Create a simple Bicep file that creates an Azure Storage Account with Hot Access Tier
-2. You can deploy Bicep file using the CLI or PowerShell
-3. You can view the deployment in the Azure Portal 
+2. You have confirmed what changes will be made prior to deployment
+3. You can deploy Bicep file using the CLI or PowerShell
+4. You can view the deployment in the Azure Portal 
 
 ## Before Moving On
 Please Delete the Storage Account you have made in this challenge.
