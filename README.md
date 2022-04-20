@@ -39,8 +39,8 @@ The challenges build upon each other incrementally. You will start by creating a
    - Working with loops to deploy multiple resources
 - Challenge 5: **[Readable Code](./Student/Bicep-Challenge-05.md)**
    - Learn about Bicep formatting best practises
-  
-  #### In Progress
+
+#### In Progress
 - Challenge 6: **[Bicep Modules](./Student/Bicep-Challenge-06.md)**
    - Learn how create resusable modules for granular resource management
 - Challenge 7: **[Configure VM to run a Web Server](./Student/Bicep-Challenge-07.md)**
@@ -53,8 +53,7 @@ The challenges build upon each other incrementally. You will start by creating a
    - How cloud-init scripts can be run on a Virtual Machine Scale Set (VMSS)
 - Challenge 11: **[Deploy resources to different scopes](./Student/Bicep-Challenge-11.md)**
    - Learn how to deploy resources to different scopes   
-
-
+  
 ## Prerequisites
 
 [Pre-Requisites - Ready, Set, Go!](./Student/Bicep-Challenge-00.md)
