@@ -35,12 +35,12 @@ The challenges build upon each other incrementally. You will start by creating a
    - Improve the exisitng Bicep from Challenge 1 to use Variables, Parameters & Outputs
 - Challenge 3: **[Bicep expressions and Referencing resources](./Student/Bicep-Challenge-03.md)**
    - See how using exsisting Bicep functions and Expresstions can improve your template 
-
-#### In Progress
-- Challenge 4: **[Secret Values with Azure Key Vault](./Student/Bicep-Challenge-04.md)**
-   - Learn how NOT to lose your job!
-- Challenge 5: **[Deploy a Virtual Machine](./Student/Bicep-Challenge-05.md)**
-   - Create complex deployment with multiple dependencies
+- Challenge 4: **[Advanced resource declarations](./Student/Bicep-Challenge-04.md)**
+   - Working with loops to deploy multiple resources
+- Challenge 5: **[Readable Code](./Student/Bicep-Challenge-05.md)**
+   - Learn about Bicep formatting best practises
+  
+  #### In Progress
 - Challenge 6: **[Bicep Modules](./Student/Bicep-Challenge-06.md)**
    - Learn how create resusable modules for granular resource management
 - Challenge 7: **[Configure VM to run a Web Server](./Student/Bicep-Challenge-07.md)**
