@@ -7,9 +7,6 @@
 A smart cloud solution architect always has the right tools in their toolbox. 
 **NOTE:** The update / installation of Azure CLI can take approx. 30mins
 ## Description
-
-We will be using Bicep to deploy resources into Azure in future challenges so please ensure that you have access to an Azure Tenant and Subscription with the appropriate Access Controls to deploy with. 
-
 In this challenge we'll be setting up all the tools we will need to complete our challenges.
 
 - Ensure you have:
