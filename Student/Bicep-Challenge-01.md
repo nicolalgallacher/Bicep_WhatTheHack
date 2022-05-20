@@ -29,8 +29,8 @@ Before starting please create a Resource Group in Azure for your Bicep work to b
    -	Validate Setup and get familiar with VS Code
    -	Sign In to Azure Portal using Powershell or Azure CLI
    - Create a simple Bicep file
-   - Confirm hat changes will be applied before the actual deployment
-   - Deploy it using the Azure CLI or PowerShell
+   - Confirm that changes will be applied before the actual deployment
+   - Deploy it using the Azure CLI
    - Observe the deployment in the Azure Portal
    - Start to think about ways the Bicep file can be improved
 
