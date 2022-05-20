@@ -11,6 +11,11 @@ They should also demonstrate the capabilities of a boolean operator to map a 'Tr
 ## Solutions 
 [Link to Bicep Solution](./Solutions/Solution-03.bicep)
 
+## Success Criteria
+1. You can deploy Azure Storage Account without hard-coding inputs
+2. You have used a ternary operator switch for the Tier
+3. Output the storage account id
+
 ## Learning Resources
 - [Bicep String Interpolation](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/bicep-functions-string#concat)
 - [Bicep Functions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/bicep-functions-resource)
