@@ -1,4 +1,4 @@
-# Challenge 3 - Bicep expressions and Referencing resources
+# Challenge 3 - Bicep Expressions and Referencing resources
 
 [< Previous Challenge](./Bicep-Challenge-02.md) - [Home](../README.md) - [Next Challenge>](./Bicep-Challenge-04.md)
 
