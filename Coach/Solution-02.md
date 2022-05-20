@@ -39,11 +39,11 @@ az deployment group create --name deploy --resource-group "RESOURCE_GROUP_NAME" 
 
 ## Success Criteria
 - You can deploy Bicep file with the parameters, variables and outputs mentioned:
- - The Bicep file must use parameters where appropriate
- - A variable for your resources location
- - Add a Project and Environment Tag of "Bicep" and "Development" respectively.
- - Leave the Access Tier property as Hot
- - The output must return a storage account id
+   - The Bicep file must use parameters where appropriate
+   - A variable for your resources location
+   - Add a Project and Environment Tag of "Bicep" and "Development" respectively.
+   - Leave the Access Tier property as Hot
+   - The output must return a storage account id
 - You can view the deployment in the Azure Portal and view the inputs & outputs
 
 ## Learning Resources
