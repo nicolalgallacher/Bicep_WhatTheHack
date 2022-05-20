@@ -12,9 +12,11 @@ We will be using Bicep to deploy resources into Azure in future challenges so pl
 
 In this challenge we'll be setting up all the tools we will need to complete our challenges.
 
-- Install the recommended toolset:
-- If using cloud shell, ensure you have a storage account created for cloud shell to connect to
+- Ensure you have:
   - An [Azure Subscription](https://azure.microsoft.com/en-us/free/)
+  - If using cloud shell, ensure you have a storage account created for cloud shell to connect to
+  
+- Install the recommended toolset:
   - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
     - Must be at least version 2.20.x
   - [Visual Studio Code](https://code.visualstudio.com/)
