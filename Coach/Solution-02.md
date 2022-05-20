@@ -12,6 +12,24 @@ Tags should have been included using parameter contain an array object.
 
 A variable should have been included to ensure the storage account is deployed in the chosen region.  Obviously, we're not deploying multiple resources at this stage, but this variable can be reused for other resources further down the line.
 
+## PowerShell Deploy 
+
+```
+//New-AzResourceGroup -Name $resourceGroupName -Force
+
+New-AzResourceGroupDeployment -Name deploy -ResourceGroupName "RESOURCE_GROUP_NAME" -TemplateFile ./Solution-##.bicep
+
+ ```
+
+## CLI 
+
+```
+//az group create --name $RESOURCE_GROUP_NAME
+
+az deployment group create --name deploy --resource-group "RESOURCE_GROUP_NAME" --template-file ./Solution-##.bicep
+
+```
+
 ## Solutions 
 [Link to Bicep Solution](./Solutions/Solution-02.bicep)
 
