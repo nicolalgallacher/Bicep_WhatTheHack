@@ -13,7 +13,7 @@ The students can end this challenge with "Hard Coded" Vaules. Variables will be 
   - Duplicate Deployment Error: Delete the Deployment at the scope (resource group) then re-run 
 
 ## Recommended Bicep Code
-[ Solution ](Bicep_WhatTheHack/Coach/Solutions/Solution-01.bicep)
+[ Solution ](https://github.com/nicolalgallacher/Bicep_WhatTheHack/blob/main/Coach/Solutions/Solution-01.bicep)
 
 ## PowerShell Deploy 
 
