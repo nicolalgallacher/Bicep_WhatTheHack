@@ -23,16 +23,6 @@ Details can be found here on [free services](https://azure.microsoft.com/en-us/f
 
 If you have used Azure before, we will still try to limit cost of services by suspending, shutting down services, or destroy services before end of the hackathon. You will still be able to use the free services (up to their quotas) like App Service, or Functions.
 
-## Windows Subsystem for Linux
-
-The Windows Subsystem for Linux (WSL) lets developers run Linux environments -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a virtual machine.
-
-WSL is an essential tool Azure admins should have on their workstations if they are running Windows! If you work with Linux servers in Azure (or anywhere), having access to WSL enables you to easily connect to them and use all the tools you're used to.
-
-[Install the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-
-If you drive a Mac or Linux workstation, then you've already got Terminal access, carry on! :)
-
 ## Managing Cloud Resources
 
 We can manage cloud resources via the following ways:
@@ -65,7 +55,6 @@ The Azure CLI will be the preferred (and supported) approach for this event, so 
 
 For Windows users, see the note below about how & where to install the Azure CLI!
 
-
 - [Install on Windows](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
 - [Install on macOS](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-macos?view=azure-cli-latest)
 - Install on Linux or Windows Subsystem for Linux (WSL)
@@ -79,8 +68,6 @@ For Windows users, see the note below about how & where to install the Azure CLI
 The Azure CLI can be installed locally on Windows. If you do this, you will access and use the Azure CLI from the Windows Command Prompt or PowerShell Console.
 
 While majority of the documentation should work fine locally on Windows, as you search the web for examples of how to use the Azure CLI, the examples frequently show Azure CLI commands used in Bash shell scripts. Bash shell scripts will not run in the Windows Command Prompt or PowerShell Console.
-
-For this reason, we recommend using [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) for interacting with the Azure CLI. This means you should install the Azure CLI within your WSL environment by following the instructions for the Linux distro you are using.
 
 Alternatively, you can use the [Azure Cloud Shell](https://shell.azure.com/bash). This is discussed shortly in the next section.
 
