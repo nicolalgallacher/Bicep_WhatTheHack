@@ -17,5 +17,5 @@ Redevelop your Bicep file from challenge 1 so that it takes inputs to create a A
    
 ## Success Criteria
 
-1. You can deploy Bicep file using both the CLI or PowerShell
+1. You can deploy Bicep file with the parameters, variables and outputs mentioned above
 2. You can view the deployment in the Azure Portal and view the inputs & outputs
