@@ -43,12 +43,13 @@ az deployment group create --confirm-with-what-if
 
 ## Success Criteria 
 
-1. Create a simple Bicep file that creates an Azure Storage Account with Hot Access Tier
+- Create a simple Bicep file that creates an Azure Storage Account with Hot Access Tier
   - Check [ Solution ](https://github.com/nicolalgallacher/Bicep_WhatTheHack/blob/main/Coach/Solutions/Solution-01.bicep) for Example
-3. You have confirmed what changes will be made prior to deployment
+- You have confirmed what changes will be made prior to deployment
   - Used the What-If Command 
-5. You can deploy Bicep file using the CLI or PowerShell
-6. You can view the deployment in the Azure Portal 
+- You can deploy Bicep file using the CLI or PowerShell
+  - See Sections above
+- You can view the deployment in the Azure Portal 
   - Check Deployments in the Resource Group they are deploying to to check the status
 
 ## Learning Resources
