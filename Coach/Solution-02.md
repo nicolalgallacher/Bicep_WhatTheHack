@@ -46,6 +46,8 @@ az deployment group create --name deploy --resource-group "RESOURCE_GROUP_NAME" 
    - The output must return a storage account id
 - You can view the deployment in the Azure Portal and view the inputs & outputs
 
+- When coaching make sure your time is aware of different ways to pass in parameters when deploying Bicep files (Parameter File / In-line with the code)
+
 ## Learning Resources
 
 Learn how to "fish" for Bicep:
